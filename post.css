@@ -1,0 +1,67 @@
+.Stories {
+
+}
+.Story:after {
+    margin: 20px auto;
+    width: 100%;
+    height: 5px;
+    display: block;
+    content: '';
+    background-color: rgb(218, 79, 111);
+}
+.Story-title {
+    color: rgb(62, 49, 138);
+    font-size: 36px;
+}
+.Story-titleLink {
+    color: rgb(62, 49, 138);
+}
+.Story-titleLink:hover,
+.Story-titleLink:visited,
+.Story-titleLink:active {
+    color: rgb(62, 49, 138);
+}
+.Story-body {
+    color: #000;
+}
+.Story-btn {
+    display: inline-block;
+}
+.Story-meta {
+    font-style: italic;
+    font-size: 80%;
+}
+.Story-images.is-many {
+    padding-bottom: 0;
+}
+.Story-images .col-sm-12 .Story-image {
+    padding-bottom: 10px;
+}
+.Story-image {
+    padding-bottom: 10px;
+}
+.Story-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.Story-tag {
+    float: left;
+    padding: 0 4px;
+    margin-right: 4px;
+    display: inline-block;
+    background-color: rgb(218, 79, 111);
+    color: #fff;
+}
+@media (min-width: 544px) {
+    .Story-btn {
+        display: table;
+    }
+    .Story-image {
+        padding-bottom: 0;
+    }
+    .Story-images.is-many {
+        padding-bottom: 10px;
+    }
+}

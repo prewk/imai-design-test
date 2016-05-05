@@ -1,0 +1,63 @@
+.EventPreviews {
+    padding: 10px 0;
+}
+.EventPreview:first-child {
+    border-top: 1px solid rgb(62, 49, 138);
+}
+.EventPreview {
+    position: relative;
+    height: 86px;
+    border-bottom: 1px solid rgb(62, 49, 138);
+    padding: 10px 0 12px 0;
+    display: block;
+    color: rgb(62, 49, 138);
+}
+.EventPreview:hover,
+.EventPreview:active,
+.EventPreview:visited {
+    text-decoration: none;
+}
+.EventPreview-cal {
+    display: table;
+    text-align: center;
+    width: 70px;
+    line-height: 1;
+    position: absolute;
+    color: rgb(62, 49, 138);
+}
+.EventPreview-calBox {
+    display: table-cell;
+    vertical-align: middle;
+}
+.EventPreview-calBoxDay {
+    font-size: 40px;
+    font-weight: bold;
+}
+.EventPreview-calBoxMonth {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.EventPreview-body {
+    font-size: 18px;
+    position: relative;
+    padding-left: 70px;
+    height: 100%;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.EventPreview-bodyBox {
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(218, 78, 111);
+    line-height: 1.3;
+}
+.EventPreview-bodyBoxTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.EventPreview-bodyBoxLocation {
+    font-size: 18px;
+    font-weight: normal;
+}
