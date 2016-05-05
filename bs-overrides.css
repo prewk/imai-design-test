@@ -1,6 +1,10 @@
+body {
+    font-family: Helvetica;
+}
+
 .row {
-    margin-left: -5px;
-    margin-right: -5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media (min-width: 544px) {

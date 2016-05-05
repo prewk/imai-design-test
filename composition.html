@@ -3,13 +3,84 @@
 <head>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bs-overrides.css" />
+    <link rel="stylesheet" href="utils.css" />
     <link rel="stylesheet" href="colors.css" />
     <link rel="stylesheet" href="post.css" />
     <link rel="stylesheet" href="event-preview.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="jumbo.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
+    <div class="collapse" id="collapser">
+        <div class="ExpandableMenu u-bgColor1">
+            <ul class="nav">
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link is-active u-colorWhite" href="#">Kalendarium</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Om oss</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Agera</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Resurser</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Länkar</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Plattform</a>
+                </li>
+                <li class="nav-item ExpandableMenuItem">
+                    <a class="collapsed-nav-link ExpandableMenuItem-link u-colorWhite" href="#">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar Menu">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="drawer-logo.svg" /></a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-colorBlack" href="#">Kalendarium</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Om oss</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Agera</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Resurser</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Länkar</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Plattform</a>
+                </li>
+                <li class="nav-item MenuItem">
+                    <a class="nav-link MenuItem-link u-color1" href="#">Kontakt</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler pull-xs-right Menu-hamburger" id="toggler">&#9776;</button>
+        </div>
+    </nav>
+
+    <div class="u-bgColor5">
+        <div class="container Jumbo Jumbo--half" style="margin-bottom:20px;">
+            <div class="JumboContent">
+                <h1 class="JumboContent-title u-color2 u-alignCenter">För en värld utan gränser</h1>
+                <p class="JumboContent-lead u-color2 u-alignJustify">Nätverket Ingen människa är illegal arbetar med att praktiskt stödja de människor som tvingats gå under jorden efter att ha fått avslag på sin asylansökan.</p>
+                <p class="JumboContent-text u-colorBlack u-alignJustify">Vi kräver permanent uppehållstillstånd åt alla som befinner sig i Sverige och vill stanna kvar här. Vi tror på en värld utan nationsgränser, en värld där ingen människa är illegal.</p>
+                <p class="JumboContent-text u-colorBlack u-alignJustify">Sajten finns tillgänglig på: <a class="JumboContent-link u-color2" href="#">Svenska</a> <a class="JumboContent-link u-color2" href="#">English</a></p>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -145,6 +216,7 @@
             </div>
 
             <div class="col-sm-4">
+                <h3 class="u-color1" style="text-align:center;">Kalendarium</h3>
                 <div class="EventPreviews u-color1">
                     <a class="EventPreview u-color1" href="#">
                         <div class="EventPreview-cal">

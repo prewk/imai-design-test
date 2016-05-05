@@ -1,0 +1,39 @@
+.Menu {
+
+}
+.MenuItem {
+
+}
+.MenuItem-link {
+    line-height: 38px;
+}
+.MenuItem-link:hover {
+    text-decoration: underline;
+}
+.Menu-hamburger {
+    line-height: 38px;
+    display: block;
+}
+.MenuItem {
+    display: none;
+}
+.ExpandableMenu {
+    padding: 8px 0;
+}
+.ExpandableMenuItem {
+    padding-left: 31px;
+}
+.ExpandableMenuItem-link {
+    line-height: 3;
+}
+.ExpandableMenuItem-link.is-active {
+    text-decoration: underline;
+}
+@media (min-width: 768px) {
+    .Menu-hamburger {
+        display: none;
+    }
+    .MenuItem {
+        display: list-item;
+    }
+}

@@ -1,0 +1,37 @@
+.Jumbo {
+    display: table;
+    padding: 10px;
+}
+.Jumbo--small {
+    height: 25vh;
+}
+.Jumbo--half {
+    height: 50vh;
+}
+.Jumbo--large {
+    height: 75vh;
+}
+.Jumbo--full {
+    height: 100vh;
+}
+.JumboContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+.JumboContent-title {
+    font-size: 2.5rem;
+}
+.JumboContent-lead {
+    font-size: 1.25rem;
+}
+.JumboContent-text {
+    font-size: 1rem;
+}
+.JumboContent-text:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 544px) {
+    .JumboContent {
+        padding: 20px 0;
+    }
+}
