@@ -7,22 +7,13 @@
     height: 5px;
     display: block;
     content: '';
-    background-color: rgb(218, 79, 111);
+    background-color: currentcolor;
 }
 .Story-title {
-    color: rgb(62, 49, 138);
     font-size: 36px;
 }
 .Story-titleLink {
-    color: rgb(62, 49, 138);
-}
-.Story-titleLink:hover,
-.Story-titleLink:visited,
-.Story-titleLink:active {
-    color: rgb(62, 49, 138);
-}
-.Story-body {
-    color: #000;
+
 }
 .Story-btn {
     display: inline-block;
@@ -51,8 +42,6 @@
     padding: 0 4px;
     margin-right: 4px;
     display: inline-block;
-    background-color: rgb(218, 79, 111);
-    color: #fff;
 }
 @media (min-width: 544px) {
     .Story-btn {

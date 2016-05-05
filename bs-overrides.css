@@ -13,29 +13,28 @@
 .btn {
     border-radius: 0;
 }
+.btn > span {
+    text-decoration: inherit;
+}
 
 .btn-primary {
-    color: #fff;
-    background-color: rgb(62, 49, 138);
-    border-color: rgb(62, 49, 138);
+    background-color: currentcolor;
+    border-color: currentcolor;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: rgb(62, 49, 138);
-    border-color: rgb(62, 49, 138);
+    background-color: currentcolor;
+    border-color: currentcolor;
     text-decoration: underline;
 }
 
 .btn-secondary {
-    color: #fff;
-    background-color: rgb(218, 79, 111);
-    border-color: rgb(218, 79, 111);
+    background-color: currentcolor;
+    border-color: currentcolor;
 }
 
 .btn-secondary:hover {
-    color: #fff;
-    background-color: rgb(218, 79, 111);
-    border-color: rgb(218, 79, 111);
+    background-color: currentcolor;
+    border-color: currentcolor;
     text-decoration: underline;
 }

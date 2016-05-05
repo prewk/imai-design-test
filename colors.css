@@ -1,27 +1,54 @@
 .u-colorBlack {
-    color: #000;
+    color: #000 !important;
+}
+
+.u-bgColorBlack {
+    background-color: #000 !important;
 }
 
 .u-colorWhite {
-    color: #fff;
+    color: #fff !important;
+}
+
+.u-bgColorWhite {
+    background-color: #fff !important;
 }
 
 .u-color1 {
-    color: rgb(62, 49, 138);
+    color: rgb(62, 49, 138) !important;
+}
+
+.u-bgColor1 {
+    background-color: rgb(62, 49, 138) !important;
 }
 
 .u-color2 {
-    color: rgb(218, 79, 111);
+    color: rgb(218, 79, 111) !important;
+}
+
+.u-bgColor2 {
+    background-color: rgb(218, 79, 111) !important;
 }
 
 .u-color3 {
-    color: rgb(232, 114, 51);
+    color: rgb(232, 114, 51) !important;
+}
+
+.u-bgColor3 {
+    background-color: rgb(232, 114, 51) !important;
 }
 
 .u-color4 {
-    color: rgb(254, 233, 221);
+    color: rgb(254, 233, 221) !important;
+}
+
+.u-bgColor4 {
+    background-color: rgb(254, 233, 221) !important;
 }
 
 .u-color5 {
-    color: rgb(222, 240, 233);
+    color: rgb(222, 240, 233) !important;
+}
+.u-bgColor5 {
+    background-color: rgb(222, 240, 233) !important;
 }
