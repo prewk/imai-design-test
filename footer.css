@@ -1,0 +1,11 @@
+.Footer-tagSummary p {
+    margin-bottom: 0;
+}
+.Footer-tagSummary p em {
+    font-style: normal;
+    font-weight: bold;
+}
+.Footer-tagSummary a {
+    color: currentcolor;
+    text-decoration: underline;
+}
