@@ -31,9 +31,42 @@
 .JumboContent-text {
     font-size: 1rem;
 }
-/*.JumboContent-text:last-child {
-    margin-bottom: 0;
-}*/
+.u-bgColor5 .JumboContent--markdown h1 {
+    color: rgb(218, 79, 111);
+}
+.u-bgColor5 .JumboContent--markdown h2 {
+    color: rgb(218, 79, 111);
+}
+.u-bgColor5 .JumboContent--markdown p {
+    color: #000;
+}
+.u-bgColor5 .JumboContent--markdown a {
+    color: rgb(218, 79, 111);
+}
+.u-bgColor4 .JumboContent--markdown h1 {
+    color: rgb(62, 49, 138);
+}
+.u-bgColor4 .JumboContent--markdown h2 {
+    color: rgb(62, 49, 138);
+}
+.u-bgColor4 .JumboContent--markdown p {
+    color: #000;
+}
+.u-bgColor4 .JumboContent--markdown a {
+    color: rgb(62, 49, 138);
+}
+.JumboContent--markdown h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.JumboContent--markdown h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.JumboContent--markdown p {
+    font-size: 1rem;
+    text-align: justify;
+}
 @media (min-width: 544px) {
     .JumboContent {
         padding: 20px 0;
