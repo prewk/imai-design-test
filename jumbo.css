@@ -67,6 +67,10 @@
     font-size: 1rem;
     text-align: justify;
 }
+.JumboContent-image {
+    max-height: 150px;
+}
+
 @media (min-width: 544px) {
     .JumboContent {
         padding: 20px 0;

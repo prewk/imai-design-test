@@ -1,0 +1,22 @@
+.Markdown p,
+.Markdown li {
+    color: #000;
+}
+.Markdown blockquote {
+    background-color: rgb(222, 240, 233);
+    padding: 20px;
+}
+.Markdown blockquote p {
+    margin-bottom: 0;
+    color: currentcolor;
+}
+.Markdown h1,
+.Markdown h2,
+.Markdown h3,
+.Markdown h4,
+.Markdown h5 {
+    color: currentcolor;
+}
+.Markdown a {
+    color: rgb(218, 79, 111);
+}
